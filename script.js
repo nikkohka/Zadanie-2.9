@@ -20,6 +20,7 @@ error.classList.remove('error');
 submitBtn.disabled = true;
 } else {
     error.classList.add('valid');
+    error.style.display = 'none';
     submitBtn.disabled = false;
 }
 return emailPattern.test(emailValue)
