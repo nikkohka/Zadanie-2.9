@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zadanie 2.9</title>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div>
+      <button id="click-button">Нажми на меня</button>
+      <p>Количество нажатий: <span id="counter">0</span></p>
+    </div>
+    
+    <style>
+      div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+    </style>
+
+<form>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email">
+    <span id="error-message" style="color: red; display: none;">Некорректный
+    email</span>
+    <br>
+    <button id="submit-btn" disabled>Отправить</button>
+    </form>
+    <p id="timer"></p>
+  </body>
+</html>
